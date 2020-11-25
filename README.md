@@ -17,7 +17,7 @@ Add Live2D widget to web page. Compatible with PJAX.
 
 ## 示例 Demo
 
-在[米米的博客](https://zhangshuqiao.org)的左下角可查看效果。（注：以下人物模型仅供展示之用，本仓库并不包含任何模型。）
+在[Pan Xiao's Blog](https://ddupan.top)的左下角可查看效果。（注：以下人物模型仅供展示之用，本仓库并不包含任何模型。）
 
 <img src="assets/screenshot-2.png" width="280"><img src="assets/screenshot-3.png" width="280"><img src="assets/screenshot-1.png" width="270">
 
@@ -99,10 +99,10 @@ https://example.com/path/to/live2d-widget/
 - `waifu-tips.json` 中定义了触发条件（`selector`，CSS 选择器）和触发时显示的文字（`text`）；
 - `waifu.css` 是看板娘的样式表。
 
-源文件是对 Hexo 的 [NexT 主题](http://github.com/next-theme/hexo-theme-next)有效的，为了适用于你自己的网页，可能需要自行修改，或增加新内容。  
+源文件是对 Jekyll 的 [Chirpy 主题](https://github.com/cotes2020/jekyll-theme-chirpy/)有效的，为了适用于你自己的网页，可能需要自行修改，或增加新内容。  
 **警告：作者不对包括但不限于 `waifu-tips.js` 和 `waifu-tips.json` 文件中的内容负责，请自行确保它们是合适的。**
 
-如果有任何疑问，欢迎提 Issue。如果有任何修改建议，欢迎提 Pull Request。
+此项目为 Fork 源项目而来，欢迎去源项目提 Issue 与 Pull Requests
 
 ## 鸣谢 Thanks
 
