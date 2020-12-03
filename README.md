@@ -7,6 +7,8 @@
 ![](https://forthebadge.com/images/badges/powered-by-electricity.svg)
 ![](https://forthebadge.com/images/badges/makes-people-smile.svg)
 
+## 本项目 Fork 自 [stevenjoezhanglive2d-widget](https://github.com/stevenjoezhang/live2d-widget) 对 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/) 主题优化
+
 ## 特性 Feature
 
 在网页中添加 Live2D 看板娘。兼容 PJAX，支持无刷新加载。  
@@ -39,7 +41,7 @@ Font Awesome (v4 or v5) is required for this plugin. Take Font Awesome v4 as an 
 
 将这一行代码加入 `<head>` 或 `<body>`，即可展现出效果：
 ```xml
-<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/panxiao81/live2d-widget@latest/autoload.js"></script>
 ```
 如果网站启用了 PJAX，由于看板娘不必每页刷新，因此要注意将相关脚本放到 PJAX 刷新区域之外。
 
@@ -67,7 +69,7 @@ Font Awesome (v4 or v5) is required for this plugin. Take Font Awesome v4 as an 
   ```bash
   cd /path/to/your/webroot
   # Clone this repository
-  git clone https://github.com/stevenjoezhang/live2d-widget.git
+  git clone https://github.com/panxiao81/live2d-widget.git
   ```
 - 如果你的主机无法用 `ssh` 连接（例如一般的虚拟主机），请选择 `Download ZIP`，然后通过 `ftp` 等方式上传到主机上，再解压到网站的目录下。
 - 如果你是通过 Hexo 等工具部署的静态博客，请在博客源文件（即 `source`）目录下，执行前述的 `git clone` 命令。重新部署博客时，相关文件就会自动上传到对应的路径下。为了避免这些文件被 Hexo 插件错误地修改，可能需要设置 `skip_render`。
@@ -99,7 +101,7 @@ https://example.com/path/to/live2d-widget/
 - `waifu-tips.json` 中定义了触发条件（`selector`，CSS 选择器）和触发时显示的文字（`text`）；
 - `waifu.css` 是看板娘的样式表。
 
-源文件是对 Jekyll 的 [Chirpy 主题](https://github.com/cotes2020/jekyll-theme-chirpy/)有效的，为了适用于你自己的网页，可能需要自行修改，或增加新内容。  
+源文件是对 Jekyll 的 [Chirpy 主题](https://github.com/cotes2020/jekyll-theme-chirpy/) 有效的，为了适用于你自己的网页，可能需要自行修改，或增加新内容。  
 **警告：作者不对包括但不限于 `waifu-tips.js` 和 `waifu-tips.json` 文件中的内容负责，请自行确保它们是合适的。**
 
 此项目为 Fork 源项目而来，欢迎去源项目提 Issue 与 Pull Requests
